@@ -2,15 +2,34 @@
   "Post": {
     "_": {
       "items": 10,
-      "data": [
-        {
-          "title": "First title",
-          "body": "You can use your own data or have random values generated for you."
-        },
-        {
-          "title": "Second title",
-          "body": "The rest of the posts will have random values"
-        }
+      "user": [
+         {
+           "firstName": "Max"
+           "lastName": "Mustermann"
+           "username": "MaxMuster123",
+           "gender": "männlich"
+           "email": "user1@example.com",
+           "password": "Test123"
+           "education": "Realschulabschluss"
+           "title": "Herr"
+           "telNumber": "01235678910"
+           "adress": "Musterweg 1, 66880 Musterstadt"
+           "profilePicture": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+           "isModerator": "No"
+           "birthday": "01.01.1998"
+         },
+         {
+           "id": 2,
+           "username": "user2",
+           "email": "user2@example.com",
+           "age": 25
+         },
+         {
+           "id": 3,
+           "username": "user3",
+           "email": "user3@example.com",
+           "age": 35
+         }
       ]
     },
     "cover": {
